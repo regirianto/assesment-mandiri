@@ -2,9 +2,9 @@ const express = require("express");
 const app = express();
 const port = 3000;
 const path = require("path");
-const userRoute = require("./routes/user.routes");
-const blogRoute = require("./routes/blog.routes");
-const authRoute = require("./routes/auth.routes");
+const userRoute = require("./app/routes/user.routes");
+const blogRoute = require("./app/routes/blog.routes");
+const authRoute = require("./app/routes/auth.routes");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const run = () => {
